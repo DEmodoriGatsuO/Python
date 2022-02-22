@@ -16,11 +16,8 @@ def setCsvToVariant(input,output):
 
 import sys
 import os
-import time
 input = sys.argv[1]
 output = os.path.dirname(sys.argv[0])
 
-print(input)
-time.sleep(5)
 setCsvToVariant(input,output)    
 
